@@ -14,5 +14,13 @@
 //= require turbolinks
 //= require jquery-jvectormap-1.2.2.min
 //= require jquery-jvectormap-world-mill-en
+//= require chart
 //= require app
+//= require jquery
+//= require jquery_ujs
 //= require_tree .
+//= require adminlte
+//= require bootstrap-sprockets
+	
+	stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+	stylesheet_link_tag "http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css"

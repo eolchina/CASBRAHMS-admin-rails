@@ -57,5 +57,18 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
-
+gem 'jquery-rails'    # Use jquery as the JavaScript library
 gem 'mysql2'
+gem 'slim-rails'
+gem "bower-rails"
+gem 'bootstrap-sass'
+gem 'font-awesome-sass'
+source 'https://rails-assets.org/' do 
+  gem 'rails-assets-adminlte'
+end
+
+# always use: "bundle install --without production" command to install gems during development
+# group :production do
+#   gem 'pg'
+#   gem 'thin'
+# end
